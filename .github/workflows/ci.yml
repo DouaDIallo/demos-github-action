@@ -2,8 +2,8 @@ name: CI - Pipeline Informatif
 
 on:
   push:
-    branches:
-      - main
+    
+      
 
 
 jobs:
