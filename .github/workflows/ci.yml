@@ -4,7 +4,6 @@ on:
   push:
     
     
-
 jobs:
   integration-continue:
     name: Démonstration CI
@@ -14,7 +13,6 @@ jobs:
     env:
       STEP1: "Workflow - Initialisation"
     
-
 
     steps:
      # using variables d’environnement et secrets pour les étapes du pipeline
@@ -31,4 +29,4 @@ jobs:
       - name: Étape 3 - Variable Secret
         run: |
           echo "Démarrage du pipeline d’intégration continue"
-          echo "STEP2= ${{secrets.STEP3}}"
+          echo "STEP3= ${{secrets.STEP3}}"
