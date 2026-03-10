@@ -27,3 +27,8 @@ jobs:
         run: |
           echo "Démarrage du pipeline d’intégration continue"
           echo "STEP2= ${{vars.STEP2}}"
+
+      - name: Étape 3 - Variable Secret
+        run: |
+          echo "Démarrage du pipeline d’intégration continue"
+          echo "STEP2= ${{secrets.STEP3}}"
